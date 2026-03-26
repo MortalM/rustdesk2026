@@ -1,7 +1,6 @@
 name: Build the flutter version of the RustDesk
 
 on:
-  workflow_dispatch:  # <--- 加上这一行，召唤运行按钮
   workflow_call:
     inputs:
       upload-artifact:
